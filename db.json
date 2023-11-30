@@ -22,7 +22,7 @@
       "name": "sundhar",
       "email": "sundar@example.com",
       "password": "password",
-      "profile_picture": "https://placehold.co/600x400"
+      "avatar": "https://placehold.co/600x400"
     }
   ],
   "login":[],
