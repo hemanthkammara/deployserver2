@@ -1,0 +1,60 @@
+
+{
+  "freelancers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "hourly_rate": 25,
+      "profile_picture": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
+			"isBooked" : false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
+			"isBooked" : true
+    },
+    {
+      "id": 3,
+      "name": "sundhar",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "hourly_rate": 25,
+      "profile_picture": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
+			"isBooked" : false
+    },
+    {
+      "id": 4,
+      "name": "Maxwell",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
+			"isBooked" : false
+    },
+    {
+      "id": 5,
+      "name": "Maxwell",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
+			"isBooked" : false
+    }
+  ]
+}
