@@ -1,60 +1,55 @@
 
 {
-  "freelancers": [
+  "users": [
     {
       "id": 1,
       "name": "John Doe",
       "email": "john@example.com",
       "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
-			"isBooked" : false
+      "avatar": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg"
+	
     },
     {
       "id": 2,
       "name": "Jane Smith",
       "email": "jane@example.com",
       "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
-			"isBooked" : true
+      "avatar": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg"
+		
     },
     {
       "id": 3,
       "name": "sundhar",
-      "email": "john@example.com",
+      "email": "sundar@example.com",
       "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
-			"isBooked" : false
-    },
-    {
-      "id": 4,
-      "name": "Maxwell",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
-			"isBooked" : false
-    },
-    {
-      "id": 5,
-      "name": "Maxwell",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
-			"isBooked" : false
+      "profile_picture": "https://placehold.co/600x400"
     }
-  ]
+  ],
+  "login":[],
+  "forum":[ {
+    "id":1,
+    "userAvatar": "https://headshots-inc.com/wp-content/uploads/2020/11/Professional-Headshot-Poses-Blog-Post.jpg",
+    "username": "John Doe",
+    "questionTitle": "How to sort an array in JavaScript?",
+    "questionDescription": "I'm struggling with sorting an array in JavaScript. Can someone please provide guidance?",
+    "language": "JavaScript",
+    "upvotes": 10,
+    "answers": 3,
+    "userId":1,
+    "postedDate": "2023-05-30",
+    "answersFromUsers":[    {
+      "userAvatar": "https://cdn.fstoppers.com/styles/large-16-9/s3/lead/2019/01/tips-for-professional-portraits.jpg",
+      "username": "Jane Smith",
+      "answerText": "To sort an array in JavaScript, you can use the built-in 'sort' method...",
+      "postedDate": "2023-05-31",
+      "userId":2
+    },
+    {
+      "userAvatar": "https://placehold.co/600x400",
+      "username": "sundhar",
+      "answerText": "Another approach to sorting an array in JavaScript is by using a custom comparison function...",
+      "postedDate": "2023-06-01",
+      "userId":3
+    }]
+  }]
 }
